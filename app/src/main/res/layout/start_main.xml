@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<!--    android:background="@drawable/background"-->
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="Hand\nSign"
+        android:textSize="70dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cardview_light_background"
+        app:itemIconSize="25dp"
+        app:itemIconTint="@color/cardview_dark_background"
+        app:itemTextColor="@color/cardview_dark_background"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
