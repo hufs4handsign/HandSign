@@ -10,5 +10,10 @@
         android:fontWeight="400"
         android:font="@font/lobster"/>
 
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/comfortaa_bold"/>
+
 
 </font-family>

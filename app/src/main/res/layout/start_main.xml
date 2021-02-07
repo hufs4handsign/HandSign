@@ -12,22 +12,29 @@
     <TextView
         android:id="@+id/Logo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fontFamily="@font/lobster"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/comfortaa_bold"
         android:gravity="center"
         android:text="Hand\nSign"
-        android:textSize="70dp" />
+        android:textSize="40dp" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation"
+        android:id="@+id/bottomMenu"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
+        android:layout_height="75dp"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
         android:background="@color/cardview_light_background"
         app:itemIconSize="25dp"
-        app:itemIconTint="@color/cardview_dark_background"
-        app:itemTextColor="@color/cardview_dark_background"
+        app:itemIconTint="@drawable/bottom_bar_colors"
+        app:itemTextColor="@drawable/bottom_bar_colors"
         app:menu="@menu/bottom_menu" />
 
 </RelativeLayout>

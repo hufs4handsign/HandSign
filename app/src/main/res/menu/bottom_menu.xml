@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/list"
-        android:icon="@drawable/ic_baseline_pan_tool_24"
-        android:enabled="true"
-        android:title="수화 번역" />
-    <item
-        android:id="@+id/home"
+        android:id="@+id/return_home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:enabled="true"
-        android:checked="true"
         android:title="홈" />
     <item
-        android:id="@+id/user"
+        android:id="@+id/signTrans"
+        android:icon="@drawable/ic_baseline_pan_tool_24"
+        android:title="수화 번역" />
+
+    <item
+        android:id="@+id/voiceTrans"
         android:icon="@drawable/ic_baseline_keyboard_voice_24"
-        android:enabled="true"
         android:title="음성 번역" />
 </menu>

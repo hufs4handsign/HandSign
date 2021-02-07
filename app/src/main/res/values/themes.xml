@@ -2,10 +2,10 @@
     <!-- Base application theme. -->
     <!-- 툴바를 지울거면 이렇게 바꿔
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"> -->
-    <style name="Theme.HandSign" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.HandSign" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/light_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

@@ -29,21 +29,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="60dp"
-        android:text="수어 -> 음성"
+        android:text="음성 -> 수어"
         android:textSize="30dp" />
-
-
-    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
-<!--        android:id="@+id/navigation"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="95dp"-->
-<!--        android:layout_gravity="bottom"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:background="@drawable/menu_border"-->
-
-<!--        app:itemIconSize="25dp"-->
-<!--        app:itemIconTint="@color/bottom_bar_colors"-->
-<!--        app:itemTextColor="@color/bottom_bar_colors"-->
-<!--        app:menu="@menu/bottom_menu" />-->
 
 </RelativeLayout>
