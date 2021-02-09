@@ -17,6 +17,11 @@
         android:fontFamily="@font/comfortaa_bold"
         android:gravity="center"
         android:text="Hand\nSign"
+        android:textColor="#000000"
+        android:shadowRadius="7.0"
+        android:shadowDx="7.0"
+        android:shadowDy="7.0"
+        android:shadowColor="@color/cardview_dark_background"
         android:textSize="40dp" />
 
     <FrameLayout
